@@ -17,7 +17,11 @@ public class S03_SingleTriangleMesh_Finish : MonoBehaviour
             new Vector3(0f, 1f, 1f), // 7
         };
 
-        int[] triangles = new int[3] { 4, 5, 6 };
+        int[] triangles = new int[] {
+        
+            0,2,1,
+            0,3,2
+        };
 
         Mesh mesh = new Mesh();
         mesh.vertices = vertices;
