@@ -19,7 +19,9 @@
           // 여기서 메인카메라에 뜨게 만들기
           int[] triangles = new int[]
           {
-              0, 1, 2,
+              0,1,2,
+              0,2,3,
+              0,3,4,
           };
 
           Mesh mesh = new Mesh();
