@@ -32,8 +32,8 @@ public class S05_MyMeshRenderer : MonoBehaviour
         // 3. 픽셀 채우기 (실습①. 완료 후 아래 줄로 교체해 체스판도 확인해보세요.)
         FillBackground(backgroundColor);
         // FillRandom(); 
-        // FillVerticalStripes(patternSize, colorA, colorB); // 실습①
-        FillCheckerboard(patternSize, colorA, colorB); // 실습②
+        FillVerticalStripes(patternSize, colorA, colorB); // 실습①
+        // FillCheckerboard(patternSize, colorA, colorB); // 실습②
 
         // 4. 변경 사항 반영
         canvasTexture.Apply();
